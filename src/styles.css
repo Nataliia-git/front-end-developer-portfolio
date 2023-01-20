@@ -101,3 +101,20 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 576px) {
+  .container {
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .primary-link {
+    display: block;
+  }
+  p {
+    text-align: center;
+  }
+}
